@@ -1,7 +1,7 @@
 **Personal Portfolio Website**
 
 Welcome to my personal portfolio website! This site showcases my projects and provides a brief overview of my skills and experiences.
-This is my portfolio website: [Personal Portfolio](https://raw.githubusercontent.com/Kavya-codes/Kavya-codes/main/Personal%20Portfolio.html)
+This is my portfolio website: [Personal Portfolio](https://raw.githubusercontent.com/Kavya-codes/Kavya-codes/main/Portfolio%20page.html)
 
  **Table of Contents**
 
