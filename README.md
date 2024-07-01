@@ -30,7 +30,7 @@ To view the portfolio, visit the GitHub Pages link provided by GitHub. You can a
 
  **GitHub Pages Link**
 
-- [Personal Portfolio Website](https://Kavya-codes.github.io/yourpersonalportfoliorepo)
+- [Personal Portfolio Website]( https://kavya-codes.github.io/Kavya-codes/)
 
  **Local Setup**
 
@@ -38,13 +38,13 @@ To run the portfolio website locally, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/Kavya-codes/yourpersonalportfoliorepo.git
+    git clone https://github.com/Kavya-codes/Kavya-codes.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd yourpersonalportfoliorepo
+    cd Kavya-codes
     ```
-3. Open the `index.html` file in your browser to view the portfolio.
+3. Open the `Portfolio_page.html` file in your browser to view the portfolio.
 
  **Contact**
 
