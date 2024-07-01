@@ -1,0 +1,102 @@
+:root {
+    --main-bg-color: #e6e6fa; /* Lavender */
+    --main-text-color: #4b0082; /* Indigo */
+    --secondary-text-color: #483d8b; /* Dark slate blue */
+    --nav-bg-color: #d8bfd8; /* Lighter lavender for nav */
+    --btn-bg-color: #4b0082; /* Indigo for buttons */
+    --btn-text-color: #fff; /* White text for buttons */
+    --btn-hover-bg-color: #483d8b; /* Dark slate blue for button hover */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-text-color);
+    margin: 0;
+    background-color: var(--main-bg-color);
+}
+
+.nav {
+    background-color: var(--nav-bg-color);
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-list a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-bg-color); /* Lavender background color */
+    background-image: linear-gradient(62deg, var(--main-bg-color) 0%, #d8bfd8 100%); /* Subtle gradient with lavender shades */
+    text-align: center; /* Center aligning text */
+}
+
+.welcome-section h1 {
+    font-size: 3rem; /* Adjusting the size of the heading */
+    margin-bottom: 1rem; /* Adding some space below the heading */
+    color: var(--main-text-color);
+}
+
+.welcome-section p {
+    font-size: 1.5rem; /* Adjusting the size of the paragraph */
+    margin-top: 0; /* Ensuring no extra margin at the top */
+    color: var(--secondary-text-color);
+}
+
+.profile-picture {
+    width: 200px; /* Setting the width of the profile picture */
+    height: 200px; /* Setting the height of the profile picture */
+    border-radius: 50%; /* Making the profile */
+
+}
+
+.project-image {
+    width: 200px;
+    height: auto;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-tile {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.project-tile:hover {
+    transform: translateY(-10px);
+}
+
+.project-title {
+    padding: 10px 0;
+    color: var(--main-text-color);
+    font-family: 'Raleway', sans-serif;
+}
