@@ -38,7 +38,7 @@ To run the portfolio website locally, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/Kavya-codes/Kavya-codes.git
+    git clone https://github.com/Kavya-codes/AspireNex.git
     ```
 2. Navigate to the project directory:
     ```bash
